@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+/*comman css*/
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+.btn-section
+{
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding: 10px;
+	background-color: rgb(123,193,198);
+}
+.btn-section:hover
+{
+	background-color: rgb(113,124,199);
+
+}
+p
+{
+	font-family: 'Mulish', sans-serif;
+	font-weight: 2.25px;
+}
+body
+{
+	font-family: 'Mulish', sans-serif;
+	background-image: url("bg_diwali.png");
+}
+img
+{
+	max-width: 100%;
+	width: auto;
+}
+
+/*header*/
+.section1
+{
+	margin-top: 20px;
+}
+.listItem ul
+{
+	display: flex;
+}
+.listItem ul li 
+{ 
+  list-style: none;
+  margin-top: 20px;
+}
+.nav_bars
+{
+	display: none;
+	font-size: 2rem;
+	text-align: right;
+  
+}
+.nav_bars i
+{
+	padding: 3px;
+	border: 2px solid;
+}
+.listItem ul li a
+{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+	padding: 18px;
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+	outline: none !important;
+}
+.listItem .active
+{
+  background-color: rgb(197, 171, 98);
+
+}
+.listItem ul li a:hover
+{
+	background-color: rgb(197, 171, 98); 
+}
+.section1 img
+{
+	width: auto;
+	max-width: 60%;
+}
+.full img
+{
+	width: 80%;
+	position: absolute;
+}
+.wishing_diwali h1
+{ 
+   font-size: 4rem;
+}
+.wishing_diwali
+{
+	line-height: 1.8rem;
+	padding: 5px;
+	display: flex;
+}
+.counter_section
+{
+ margin-top: 60px;
+ background-image: url("bg_counter.png");
+ background-size: 1500px;
+ background-repeat: no-repeat;
+ text-align: center;
+ color: pink;
+}
+.counter_section ul
+{
+	display: flex;
+	justify-content: center;
+
+}
+#countdown li
+{
+	font-size: 1.8rem;
+	padding: 20px;
+	background-color:#e6005c;
+	margin: 4px;
+	height: 140px;
+	/*border-radius: 120px;*/
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.counter_section ul li
+{
+	list-style: none;
+    
+
+}
+.counter_section ul li a
+{
+  background-color: pink;
+  
+}
+.price_order
+{
+	display: flex;
+	justify-content: center;
+
+}
+.price_order p
+{
+	margin: 5px;
+}
+.sliderindc1 ol li
+{
+	height: 15px;
+	width: 14px;
+	border: 1px solid pink;
+	border-radius: 22px;
+	background-color: white;
+}
+.sliderindc1 ol li.active
+{
+    background-color: rgb(197, 171, 98); 
+    transform: scale(1.2);
+}
+.contact_section input
+{
+	padding: 12px;
+	border: none;
+	outline: none;
+	border-radius: 8px;
+    background-color:#C1C19E;
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.contact_section textarea
+{
+	outline: none;
+	border-radius: 8px;
+    background-color:#C1C19E;
+}
+margin-left: 10px;
+}
+.contact_block .ph
+{
+	width: 100%;
+}
+.donate_section i
+{
+	font-size: 3rem;
+	color: white;
+}
+.donate_section p
+{
+	color: pink;
+}
+.donate_section
+{
+	color: white;
+	background-image: url("donate_bg.png");
+	background-position: initial;
+}
+.contact_left_sec
+{
+	display: flex;
+
+}
+.contact_left_sec i
+{
+  font-size: 2.2rem;
+}
+.contact_left_sec p
+{
+  color: brown;
+}
+.form_icn
+{
+	background-color: rgb(197, 171, 98); 	
+	margin: 20px;
+	margin-top: 2px;
+	height: 72px;
+	border-radius: 50px;
+}
+.contact_section
+{
+	background-image: url("slider-1.png");
+    background-attachment: fixed;
+    background-position: inherit;
+    backface-visibility: visible;
+}
+.footer_section
+{
+	background-color: rgb(197, 171, 98); 
+	text-align: center;
+	padding: 7px;
+	margin:5px; 
+}
+.nav_bars
+{
+	display: none;
+} 
+.nav_bars button i
+{
+    outline:none;
+    cursor: pointer;
+	border: none;
+	background-color: transparent;	
+}
+.nav_bars button
+{
+	z-index: 1;
+	background-color: transparent;
+}
+
+@media only screen and (max-width: 998px)
+{
+.wishing_diwali
+{
+	display: block;
+}	
+.listItem ul
+{
+	display: none;
+}
+.nav_bars
+{
+	display: flex;
+	position: absolute;
+	justify-content: flex-end;
+	top: 9%;	
+}
+
+
+
+
+
